@@ -732,6 +732,8 @@ body {
     }
 }
 
+
+
 @media (max-width: 100px) {
     .label-project {
         transform: scale(0.28);
@@ -1573,6 +1575,27 @@ body {
 
     .skills-icons .skill-icon {
         transform: none !important;
+    }
+
+     .label-project {
+        transform: scale(0.28);
+        transform-origin: center center;
+        flex-wrap: nowrap;
+        /* compensate for the collapsed height after scaling */
+        margin: -100px 0;
+    }
+
+    .welcome-container {
+         transform: scale(0.8);
+        justify-content: center;
+        padding: 0 5px;
+    }
+
+    .intro-section {
+        height: auto;
+        min-height: 160px;
+        padding: 0;
+        overflow: hidden;
     }
 }
 
