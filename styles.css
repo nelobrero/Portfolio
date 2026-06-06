@@ -732,7 +732,7 @@ body {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 100px) {
     .label-project {
         transform: scale(0.28);
         transform-origin: center center;
